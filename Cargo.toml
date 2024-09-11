@@ -1,0 +1,10 @@
+[package]
+name = "timewave_zero"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.3", features = ["derive"] }
+rayon = "1.7"
+[features]
+threaded = []
